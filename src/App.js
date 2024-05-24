@@ -99,7 +99,6 @@ function App() {
           <Route path="/admin1" element={<ProtectedRoute><Admin1 /></ProtectedRoute>} />
           
           {/* Routes pour les pages spécifiques de l'administration */}
-          <Route index element={<Dashboard />} />
           <Route path="/dashboard" element={<ProtectedRoute><Dashboard /></ProtectedRoute>} />
           <Route path="/team" element={<ProtectedRoute><Team /></ProtectedRoute>} />
           <Route path="/contacts" element={<ProtectedRoute><Contacts /></ProtectedRoute>} />
